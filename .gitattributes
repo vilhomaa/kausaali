@@ -1,0 +1,8 @@
+# Normalize line endings on checkin
+* text=auto eol=lf
+
+# Treat these as binary (no diff / no eol conversion)
+*.gz binary
+
+# Language stats: don't count vendored example data as code
+data/*.csv linguist-generated=true

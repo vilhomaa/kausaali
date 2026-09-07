@@ -1,0 +1,13 @@
+Kausaali
+Copyright 2025 Lassi Vilhomaa
+
+This product is licensed under the Apache License, Version 2.0 (the "License");
+you may not use this product except in compliance with the License.
+A copy of the License is provided in the LICENSE file and is also available at
+https://www.apache.org/licenses/LICENSE-2.0
+
+The models implemented here follow:
+  * S. Athey, J. Tibshirani, S. Wager. "Generalized Random Forests."
+    The Annals of Statistics, 47(2), 2019.
+  * S. Athey, S. Wager. "Estimation and Inference of Heterogeneous Treatment
+    Effects using Random Forests." JASA, 113(523), 2018.

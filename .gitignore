@@ -1,0 +1,21 @@
+# sbt / Scala build output
+target/
+project/target/
+project/project/
+.bloop/
+.bsp/
+.metals/
+.scala-build/
+.ammonite/
+
+# Generated example / run data
+data/*.json
+data/*.json.gz
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
