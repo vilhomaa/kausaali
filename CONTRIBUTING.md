@@ -2,6 +2,10 @@
 
 Thanks for your interest in contributing.
 
+Possible next steps & further implementations:
+- iv/quantile forests from Generalized Random Forests (Athey, Tibshirani and Wager 2018)
+- Local linear forests (Athey, Friedberg, Tibshirani and Wager, 2021)
+
 ## Getting started
 
 ```bash
