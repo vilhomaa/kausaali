@@ -14,7 +14,7 @@ Build: `sbt compile` / `sbt test`. Scala 3.3, JSON serialization via circe.
 Use it from another sbt project via `sbt publishLocal`:
 
 ```scala
-libraryDependencies += "io.github.vilhomaa" %% "kausaali" % "0.1.0-SNAPSHOT"
+libraryDependencies += "io.github.vilhomaa" %% "kausaali" % "0.1.0"
 ```
 
 Cross-framework speed/accuracy benchmarks (vs R `grf` and Python EconML) live in the
