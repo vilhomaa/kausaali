@@ -1,14 +1,11 @@
 val circeVersion = "0.14.10"
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Project metadata for publishing.
-//
-// `sbt publishLocal` works as-is. Before publishing to Maven Central, replace
-// every `vilhomaa` below with real coordinates — see PUBLISHING.md.
+// Project metadata for publishing. `sbt publishLocal` works as-is;
+// Maven Central steps are in PUBLISHING.md.
 // ─────────────────────────────────────────────────────────────────────────────
 ThisBuild / organization     := "io.github.vilhomaa"
 ThisBuild / organizationName := "Lassi Vilhomaa"
-ThisBuild / version          := "0.1.0"
 ThisBuild / scalaVersion     := "3.3.5"
 ThisBuild / startYear        := Some(2025)
 ThisBuild / versionScheme    := Some("early-semver")
