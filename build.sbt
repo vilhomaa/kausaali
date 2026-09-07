@@ -9,6 +9,8 @@ ThisBuild / organizationName := "Lassi Vilhomaa"
 ThisBuild / scalaVersion     := "3.3.5"
 ThisBuild / startYear        := Some(2025)
 ThisBuild / versionScheme    := Some("early-semver")
+ThisBuild / sonatypeCredentialHost := "central.sonatype.com"
+ThisBuild / sonatypeProfileName    := "io.github.vilhomaa"
 
 ThisBuild / licenses := Seq(
   "Apache-2.0" -> url("https://www.apache.org/licenses/LICENSE-2.0")
