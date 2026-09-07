@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 (`early-semver`: while on `0.x`, the minor version may carry breaking changes).
 
 
-## [0.1.0] - 7.9.2026
+## [0.1.0] - 2026.9.7
 
 Initial public release.
 

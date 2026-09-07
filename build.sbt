@@ -2,7 +2,7 @@ val circeVersion = "0.14.10"
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Project metadata for publishing. `sbt publishLocal` works as-is;
-// Maven Central steps are in PUBLISHING.md.
+// Maven Central release steps are in CONTRIBUTING.md.
 // ─────────────────────────────────────────────────────────────────────────────
 ThisBuild / organization     := "io.github.vilhomaa"
 ThisBuild / organizationName := "Lassi Vilhomaa"
