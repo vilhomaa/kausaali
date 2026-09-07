@@ -1,5 +1,7 @@
 # Kausaali
 
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.vilhomaa/kausaali_3?style=flat-square)](https://central.sonatype.com/artifact/io.github.vilhomaa/kausaali)
+
 ## Overview
 
 This Scala 3 library collects machine learning methods for estimating the treatment effect CATE (Conditional Average Treatment Effect).
@@ -11,11 +13,14 @@ Included are the models:
 
 Build: `sbt compile` / `sbt test`. Scala 3.3, JSON serialization via circe.
 
-Use it from another sbt project via `sbt publishLocal`:
+Available from Maven Central (latest version in the badge above):
 
 ```scala
-libraryDependencies += "io.github.vilhomaa" %% "kausaali" % "0.1.0"
+libraryDependencies += "io.github.vilhomaa" %% "kausaali" % "<latest>"
 ```
+
+Or build from source: `sbt publishLocal` writes it to `~/.ivy2/local`, after which
+the same coordinates resolve locally.
 
 Cross-framework speed/accuracy benchmarks (vs R `grf` and Python EconML) live in the
 separate [`kausaali-benchmarks`](https://github.com/vilhomaa/kausaali-benchmarks) repository.
