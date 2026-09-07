@@ -8,7 +8,7 @@ val circeVersion = "0.14.10"
 // ─────────────────────────────────────────────────────────────────────────────
 ThisBuild / organization     := "io.github.vilhomaa"
 ThisBuild / organizationName := "Lassi Vilhomaa"
-ThisBuild / version          := "0.1.0-SNAPSHOT"
+ThisBuild / version          := "0.1.0"
 ThisBuild / scalaVersion     := "3.3.5"
 ThisBuild / startYear        := Some(2025)
 ThisBuild / versionScheme    := Some("early-semver")

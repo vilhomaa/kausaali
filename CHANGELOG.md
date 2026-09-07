@@ -6,16 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
 (`early-semver`: while on `0.x`, the minor version may carry breaking changes).
 
-## [Unreleased]
 
-### Added
-- `LICENSE` (Apache-2.0), `NOTICE`, and project metadata for publishing.
-
-### Changed
-- Cross-framework benchmarks moved to a separate repository,
-  `kausaali-benchmarks`.
-
-## [0.1.0] - Unreleased
+## [0.1.0] - 7.9.2026
 
 Initial public release.
 
@@ -26,6 +18,8 @@ Initial public release.
 - `CausalForest` — exact-splitting honest causal forest (Athey & Wager 2018).
 - CSV / row-source data loading with a categorical encoding pipeline.
 - JSON forest serialization via circe, with transparent gzip.
+- `LICENSE` (Apache-2.0), `NOTICE`, and project metadata for publishing.
+
 
 [Unreleased]: https://github.com/vilhomaa/kausaali/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/vilhomaa/kausaali/releases/tag/v0.1.0
